@@ -7,7 +7,7 @@ Uses a secret token to authenticate requests, exposes the `forever.js` `list` co
 # Install
 
 ```shell
-git clone https://github.com/seanbreckenridge/foreverjs-list
+git clone https://github.com/purarue/foreverjs-list
 cd foreverjs-list
 npm install
 # set required token somewhere (put in some environment file (e.g. ~/.bashrc))
@@ -23,7 +23,7 @@ Endpoints:
 
 ## Example
 
-I run this on my server which runs my applications as `forever.js` processes (see [here](https://github.com/seanbreckenridge/vps/blob/d53ac1e76303c5b0d34b88d04101c3feff06420e/restart)):
+I run this on my server which runs my applications as `forever.js` processes (see [here](https://github.com/purarue/vps/blob/d53ac1e76303c5b0d34b88d04101c3feff06420e/restart)):
 
 ```shell
 FOREVER_LIST_TOKEN=secret_token_here node app.js
@@ -59,13 +59,13 @@ Returns a list of JSON objects:
   'file': 'app.js',
   'id': False,
   'isMaster': True,
-  'logFile': '/home/sean/logs/foreverjs-list/forever.log',
+  'logFile': '/home/user/logs/foreverjs-list/forever.log',
   'pid': 12936,
   'restarts': 13,
   'running': True,
   'silent': False,
-  'sourceDir': '/home/sean/code/foreverjs-list',
-  'spawnWith': {'cwd': '/home/sean/code/foreverjs-list'},
+  'sourceDir': '/home/user/code/foreverjs-list',
+  'spawnWith': {'cwd': '/home/user/code/foreverjs-list'},
   'uid': 'forever-list-api'}
   ...
   ]

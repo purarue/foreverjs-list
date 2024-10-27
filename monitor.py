@@ -7,7 +7,7 @@ python packages:
     toml
 commands:
     notify-send
-    wait-for-internet (https://github.com/seanbreckenridge/wait-for-internet)
+    wait-for-internet (https://github.com/purarue/wait-for-internet)
 
 Waits till I have an internet connection, and then
 checks whether the the server and the correct
@@ -52,7 +52,7 @@ os.system("wait-for-internet >/dev/null")
 
 # make the request to the API
 resp = httpx.get(
-    "https://seanbr.com/forever-list/", headers={"token": conf["FOREVER_LIST_TOKEN"]}
+    "https://purarue.xyz/forever-list/", headers={"token": conf["FOREVER_LIST_TOKEN"]}
 )
 
 # if we couldnt connect to the remote api, notify me

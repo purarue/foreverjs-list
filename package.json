@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seanbreckenridge/foreverjs-list.git"
+    "url": "git+https://github.com/purarue/foreverjs-list.git"
   },
   "keywords": [
     "forever.js"
   ],
-  "author": "Sean Breckenridge",
+  "author": "purarue",
   "license": "MIT",
-  "homepage": "https://github.com/seanbreckenridge/foreverjs-list#readme",
+  "homepage": "https://github.com/purarue/foreverjs-list#readme",
   "dependencies": {
     "ansiparse": "^0.1.0",
     "express": "^4.17.1",
